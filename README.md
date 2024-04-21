@@ -59,4 +59,10 @@ I have used `--net=host` because without it, rpc was not working.
 
    This will return list of public keys of validators who have a duty in sync committee for slot 8886688.
 
+## Running Tests
 
+You need local environment for this. Assuming you already have repo fork and go in your system.
+
+1. go to /src
+2. Install dependencies by `go mod download`
+3. Run `go test .`
